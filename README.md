@@ -2,6 +2,9 @@
 Nurhidayah | 2409116002 A'24
 
 ## 🎨 1. Halaman Pemesanan Desain
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/41e0ed00-bf57-4eb2-a40c-653e324d43a8" />
+
 Pada halaman utama, aplikasi menampilkan form pemesanan jasa desain grafis. Pengguna dapat mengisi beberapa data yang dibutuhkan sebelum melakukan pemesanan.
 Fitur yang tersedia pada halaman ini meliputi:
 * Input **Nama Pemesan**
