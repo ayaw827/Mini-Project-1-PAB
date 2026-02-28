@@ -126,26 +126,4 @@ Class `BookingModel` berfungsi untuk:
 * Mengosongkan keranjang saat checkout
 
 Setiap perubahan data akan memanggil `notifyListeners()` sehingga tampilan akan otomatis diperbarui.
-
----
-
-# ✅ Kesesuaian dengan Ketentuan Tugas
-
-✔ Create (Tambah Data)
-✔ Read (Tampilkan Data)
-✔ Delete (Hapus Data)
-✔ Minimal 3 TextField dalam satu form
-✔ Multi Page Navigation
-✔ Menggunakan State Management (Provider)
-✔ Checkout dengan Konfirmasi (Nilai Tambah)
-
----
-
-Kalau kamu mau, aku juga bisa buatin versi **README.md lengkap siap upload ke GitHub** yang sudah ada:
-
-* Deskripsi aplikasi
-* Fitur aplikasi
-* Widget yang digunakan
-* Cara menjalankan project
-
 Biar tinggal push dan beres 😌💜
