@@ -1,95 +1,37 @@
 # Mini-Project-1-PAB
 Nurhidayah | 2409116002 A'24
 
-## 🎨 1. Halaman Pemesanan Desain
+## 1. Halaman Pemesanan Desain
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/41e0ed00-bf57-4eb2-a40c-653e324d43a8" />
 
-Pada halaman utama, aplikasi menampilkan form pemesanan jasa desain grafis. Pengguna dapat mengisi beberapa data yang dibutuhkan sebelum melakukan pemesanan.
-Fitur yang tersedia pada halaman ini meliputi:
-* Input **Nama Pemesan**
-* Pilihan **Jenis Desain** (Logo, Poster, Feed Instagram)
-* Tampilan otomatis **Harga sesuai jenis desain**
-* Input **Deadline**
-* Input **Catatan Tambahan**
-* Informasi **Contact Person Desainer**
-* Tombol **Tambah ke Keranjang**
-* Icon keranjang dengan **badge jumlah pesanan**
-Harga akan otomatis berubah ketika jenis desain dipilih. Setelah semua data diisi dan tombol “Tambah ke Keranjang” ditekan, pesanan akan masuk ke halaman keranjang.
-Tampilan dirancang sederhana dan informatif agar pengguna mudah melakukan pemesanan jasa desain.
+Pada halaman utama aplikasi, saya menampilkan form pemesanan jasa desain grafis yang dapat digunakan oleh pengguna untuk melakukan pemesanan. Di halaman ini, pengguna diminta untuk mengisi beberapa data seperti nama pemesan, memilih jenis desain (Logo, Poster, atau Feed Instagram), menentukan deadline, serta menambahkan catatan tambahan jika diperlukan. Harga akan otomatis berubah sesuai dengan jenis desain yang dipilih melalui dropdown. Saya juga menampilkan informasi contact person desainer agar pengguna mengetahui pihak yang dapat dihubungi. Selain itu, terdapat tombol “Tambah ke Keranjang” untuk menyimpan pesanan serta ikon keranjang dengan badge yang menunjukkan jumlah pesanan yang telah ditambahkan. Tampilan halaman ini saya rancang sederhana dan informatif agar memudahkan pengguna dalam melakukan pemesanan.
 
-
-## 🧺 2. Keranjang Kosong (Empty Cart State)
+## 2. Keranjang Kosong (Empty Cart State)
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fa5577e5-3e01-4edf-869c-4e10ecfcd140" />
 
-Ketika pengguna belum menambahkan pesanan, halaman keranjang akan menampilkan kondisi kosong.
-Pada halaman ini ditampilkan:
-* Ikon keranjang
-* Pesan: **“Belum ada pesanan”**
-* Tombol untuk kembali ke halaman pemesanan
-Hal ini memberikan informasi yang jelas kepada pengguna bahwa belum ada data yang ditambahkan.
+Pada halaman keranjang, jika pengguna belum menambahkan pesanan, maka akan ditampilkan kondisi keranjang kosong. Saya menampilkan ikon keranjang disertai pesan “Belum ada pesanan” sebagai informasi bahwa belum ada data yang tersimpan. Selain itu, tersedia tombol untuk kembali ke halaman pemesanan agar pengguna dapat langsung melakukan pemesanan. Tampilan ini bertujuan untuk memberikan feedback yang jelas kepada pengguna mengenai status keranjang mereka.
 
-
-## 🛒 3. Keranjang Pesanan
+## 3. Keranjang Pesanan
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/210b8d77-54f8-4971-a641-d502fe7e91fb" />
 
-Setelah pengguna menambahkan pesanan, halaman keranjang akan menampilkan daftar pesanan yang telah dibuat.
+Setelah pengguna menambahkan pesanan, halaman keranjang akan menampilkan daftar pesanan yang telah dibuat. Setiap item pesanan ditampilkan dalam bentuk card yang berisi informasi jenis desain, nama pemesan, deadline, catatan tambahan, serta harga. Saya juga menyediakan tombol hapus berupa ikon tempat sampah agar pengguna dapat menghapus pesanan secara individual. Di bagian bawah halaman, saya menampilkan total harga keseluruhan dari semua pesanan yang ada, serta tombol “Checkout” untuk melanjutkan proses penyelesaian transaksi. Dengan tampilan ini, pengguna dapat melihat dan mengelola seluruh pesanan yang telah dibuat.
 
-Setiap item pesanan menampilkan:
-
-* Jenis desain
-* Nama pemesan
-* Deadline
-* Catatan tambahan
-* Harga
-* Tombol hapus (ikon tempat sampah)
-
-Di bagian bawah halaman ditampilkan:
-
-* **Total harga keseluruhan**
-* Tombol **Checkout**
-
-Pengguna dapat menghapus pesanan secara individual menggunakan ikon sampah.
-
----
-
-## 💳 4. Checkout Modal
+## 4. Checkout Modal
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c1dbf1ba-5c8e-4c8e-bee8-b76d6621a005" />
 
-Ketika tombol **Checkout** ditekan, akan muncul dialog konfirmasi.
+Ketika tombol “Checkout” ditekan, saya menampilkan dialog konfirmasi menggunakan AlertDialog. Dialog ini berisi konfirmasi penyelesaian pesanan serta total harga yang harus dibayarkan. Pengguna diberikan dua pilihan, yaitu tombol “Cancel” untuk membatalkan proses checkout dan tombol “Confirm” untuk menyelesaikan pesanan. Fitur ini saya tambahkan sebagai langkah validasi agar pengguna benar-benar yakin sebelum menyelesaikan transaksi dan menghapus seluruh data pesanan dari keranjang.
 
-Dialog ini berisi:
-
-* Konfirmasi penyelesaian pesanan
-* Total harga pesanan
-* Dua pilihan tombol:
-
-  * **Cancel** → membatalkan checkout
-  * **Confirm** → menyelesaikan pesanan
-
-Fitur ini bertujuan untuk memastikan pengguna benar-benar ingin menyelesaikan transaksi sebelum data dihapus.
-
----
-
-## 🎉 5. Konfirmasi Pesanan
+## 5. Konfirmasi Pesanan
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f364950e-5c73-4870-9206-1e099d99571f" />
 
-Setelah tombol **Confirm** ditekan:
+Setelah pengguna menekan tombol “Confirm”, seluruh pesanan akan dihapus dari keranjang melalui fungsi clear pada provider. Kemudian muncul notifikasi berupa SnackBar dengan pesan “Checkout berhasil!” sebagai tanda bahwa proses transaksi telah selesai. Pengguna akan kembali ke halaman utama, dan badge pada ikon keranjang akan kembali kosong. Hal ini menandakan bahwa proses pemesanan telah berhasil diselesaikan dan sistem kembali ke kondisi awal.
 
-* Pesanan akan dihapus dari keranjang
-* Muncul notifikasi: **“Checkout berhasil!”**
-* Pengguna kembali ke halaman utama
-* Badge keranjang kembali menjadi kosong
-
-Hal ini menandakan proses transaksi telah selesai.
-
----
-
-## 🔁 Flow Penggunaan (Singkat)
+## Flow Penggunaan
 
 1. User isi form pemesanan
 2. Klik **Tambah ke Keranjang**
@@ -99,21 +41,9 @@ Hal ini menandakan proses transaksi telah selesai.
 6. Konfirmasi → **Checkout berhasil**
 7. Keranjang otomatis kosong
 
----
-
 # 🛠 Widget yang Digunakan
 
 Aplikasi ini menggunakan beberapa widget utama Flutter, antara lain:
-
-Iyaa betul banget 😌💜
-
-Karena ini sudah masuk bagian **“Widget yang Digunakan”** dan **“Arsitektur & State Management”**, supaya laporan kamu makin kuat dan kelihatan niat (nilai plus banget ✨), sebaiknya kamu tambahkan screenshot kode dari masing-masing class/file utama.
-
-Biar rapi dan nggak kepanjangan, ini rekomendasi format yang bagus 👇
-
----
-
-# 📂 Dokumentasi Struktur Kode
 
 ## 1. main.dart
 
