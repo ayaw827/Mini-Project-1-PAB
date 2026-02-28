@@ -18,23 +18,22 @@ Fitur yang tersedia pada halaman ini meliputi:
 Harga akan otomatis berubah ketika jenis desain dipilih. Setelah semua data diisi dan tombol “Tambah ke Keranjang” ditekan, pesanan akan masuk ke halaman keranjang.
 Tampilan dirancang sederhana dan informatif agar pengguna mudah melakukan pemesanan jasa desain.
 
----
 
 ## 🧺 2. Keranjang Kosong (Empty Cart State)
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/fa5577e5-3e01-4edf-869c-4e10ecfcd140" />
+
 Ketika pengguna belum menambahkan pesanan, halaman keranjang akan menampilkan kondisi kosong.
-
 Pada halaman ini ditampilkan:
-
 * Ikon keranjang
 * Pesan: **“Belum ada pesanan”**
 * Tombol untuk kembali ke halaman pemesanan
-
 Hal ini memberikan informasi yang jelas kepada pengguna bahwa belum ada data yang ditambahkan.
 
----
 
 ## 🛒 3. Keranjang Pesanan
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/210b8d77-54f8-4971-a641-d502fe7e91fb" />
 
 Setelah pengguna menambahkan pesanan, halaman keranjang akan menampilkan daftar pesanan yang telah dibuat.
 
@@ -58,6 +57,8 @@ Pengguna dapat menghapus pesanan secara individual menggunakan ikon sampah.
 
 ## 💳 4. Checkout Modal
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c1dbf1ba-5c8e-4c8e-bee8-b76d6621a005" />
+
 Ketika tombol **Checkout** ditekan, akan muncul dialog konfirmasi.
 
 Dialog ini berisi:
@@ -74,6 +75,8 @@ Fitur ini bertujuan untuk memastikan pengguna benar-benar ingin menyelesaikan tr
 ---
 
 ## 🎉 5. Konfirmasi Pesanan
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f364950e-5c73-4870-9206-1e099d99571f" />
 
 Setelah tombol **Confirm** ditekan:
 
